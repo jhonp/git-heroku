@@ -1,0 +1,141 @@
+win + R >cmd
+c:\>python --version
+c:\>pip --version
+c:\>pip install flask
+
+html:5
+instalar complememnto EMMET 
+
+https://getbootstrap.com/
+
+FORMATEAR
+    CTRL + SHIFT + p 
+    >format
+
+
+
+google busqueda:
+    uigradients
+
+google busqueda:
+    heroku
+
+google busqueda:
+    python virtual env
+        https://docs.python-guide.org/dev/virtualenvs/
+    virtualenv.py
+
+
+C:\Users\JHON\Desktop\pythonWeb>pip install virtualenv
+... ...
+
+C:\Users\JHON\Desktop\pythonWeb>python -m venv venv
+... ...
+
+C:\Users\JHON\Desktop\pythonWeb\venv\Scripts>python file.py
+... 
+
+C:\Users\JHON\Desktop\pythonWeb\venv\Scripts>pip --version
+... 
+
+C:\Users\JHON\Desktop\pythonWeb\venv\Scripts>pip install flask
+... ...
+
+C:\Users\JHON\Desktop\pythonWeb\venv\Scripts>python ..\..\src\index.py
+
+google busqueda:
+    herokucli
+        https://devcenter.heroku.com/articles/heroku-cli
+
+
+
+C:\Users\JHON>heroku --version
+C:\Users\JHON>heroku login
+
+jkpcomputer@gmail.com
+Heroku#123
+
+google busqueda:
+    gunicorn
+
+
+
+C:\Users\JHON\Desktop\pythonWeb\venv\Scripts>pip install gunicorn
+
+C:\Users\JHON\Desktop\pythonWeb\venv\Scripts>pip freeze
+
+============================
+git config 
+============================
+
+C:\Users\JHON\Desktop\pythonWeb\venv\Scripts>git --version
+C:\Users\JHON\Desktop\pythonWeb\venv\Scripts>git config --list
+C:\Users\JHON\Desktop\pythonWeb\venv\Scripts>git config --global user.email "user#gmail.com"
+C:\Users\JHON\Desktop\pythonWeb\venv\Scripts>git config --global user.name "user"
+
+============================
+git
+============================
+    JHON@DESKTOP-QFSETI0 MINGW64 (master)
+    $ ls
+    $ pwd
+    $ cd Desktop\project
+    JHON@DESKTOP-QFSETI0 MINGW64 ~/Desktop/project (master)
+    
+    $ git config --list
+    $ git config --global user.email "user#gmail.com"
+    $ git config --global user.name "user"
+
+    $ git init
+    $ git status
+    $ git add app.js
+    $ git commit
+
+    Esc en en editor vi
+        i<insertar>
+        Esc
+            :wq
+    $ git log
+
+        ** modificar el archivo index.html 
+    $ git checkout --index.html
+        ** regresa a su estado anterior el archivo index.html
+
+    $ git diff index.html
+        ** se muestran los cambios 
+
+    $ git add index.html
+        ** se agrega el archivo al entorno de trabajo para modificacion 
+    $ git commit 
+    esc + escribir comentario + esc + :wq  #(write)(quit)
+    $ git log
+        ** crear carpeta ~/Desktop/project/test
+        ** crear archivo ~/Desktop/project/.gitignore y llenarlo con el texto "test" 
+    $ git add .gitignore
+    $ git commit -m "he agregado este mensaje" 
+
+    $ git branch
+    $ git branch login
+    $ git add .
+
+    $ git commit -m "prueba de branch   
+    $ git checkout master
+
+        ** entrar a github y crear es repositorio "git-prueba"
+
+    $ git remote add origin https://github.com/jhonp/git-prueba.git
+    $ git push -u origin master
+
+===============================================================
+JHON@DESKTOP-QFSETI0 MINGW64 ~/Desktop
+    $ git clone https://github.com/jhonp/git-prueba
+
+==============================================================
+    $ git config --global user.email "jhonycape@gmail.com"
+    $ git config --global user.name "jhonycape"
+
+    $ git config --global user.email "jkpcomputer@gmail.com"
+    $ git config --global user.name "jkpcomputer"
+
+
+
